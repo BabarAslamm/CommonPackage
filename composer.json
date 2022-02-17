@@ -1,0 +1,19 @@
+{
+    "name": "insyghts/common",
+    "description": "Common Functions.",
+    "version": "1.0",
+    "autoload": {
+        "psr-4": {
+            "Insyghts\\Common\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ravi-374",
+            "email": "ravinavadiya374@gmail.com"
+        }
+    ],
+    "require": {
+        "league/flysystem-aws-s3-v3": "~1.0"
+    }
+}
